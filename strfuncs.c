@@ -1,11 +1,3 @@
-/*
-strcmp returns:
-1 if string a is greater than string b
--1 if string b is greater than string a
-0 is they are equal
-Which one is greater is decided lexiconographically
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,6 +11,15 @@ int strcmp (char *a, char *b) {
   return 0;
 }
 
+int strlen( char *a ) {
+  int i = 0;
+  while (a[i]) i++;
+  return i;
+}
+
+char * strcat( char *dest, char *source ) {
+
+}
 
 int main() {
   char one[] = "Obama";
