@@ -1,0 +1,14 @@
+/*
+strcmp returns:
+1 if string a is greater than string b
+-1 if string b is greater than string a
+0 is they are equal
+Which one is greater is decided lexiconographically
+*/
+
+int strcmp (char *a, char *b) {
+  int i = 0;
+  while (a[i]) {
+    if ((int) a[i] > (int) b[i]) return 1;
+    if ((int) a[i] > (int) b[i]) return 1;
+}
