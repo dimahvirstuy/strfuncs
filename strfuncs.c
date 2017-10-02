@@ -18,6 +18,15 @@ int strlen( char *a ) {
 }
 
 char * strcat( char *dest, char *source ) {
+  int i = 0; 
+  while (dest[i]) i++;
+  int j = 0;
+  while (source[j]) {
+    dest[i] = source[j];
+    i++;
+    j++;
+  }
+  return dest;
 
 }
 
