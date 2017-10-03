@@ -49,8 +49,8 @@ int main() {
   printf("%s is %d characters long\n",six, strlen(six));
   printf("%s is %d characters long\n",one, strlen(one));
   //strcat testing
-  printf("%s concactinated to %s is: %d\n",one, one, strcmp(one, one));
-  printf("%s compared to %s is: %d\n",one, one, strcmp(one, one));
-  printf("%s compared to %s is: %d\n",one, one, strcmp(one, one));
+  printf("%s concatinated to %s is: %s\n",one, one, strcat(one, three));
+  printf("%s concatinated to %s is: %s\n",one, one, strcat(two, five));
+  printf("%s concatinated to %s is: %s\n",one, one, strcat(three, six));
 
 }
