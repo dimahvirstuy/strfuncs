@@ -37,18 +37,18 @@ int main() {
   char four[] = "Nixon";
   char five[] = "Washington";
   char six[] = "00293asdgjkd29";
-  //strcmp testing
+  printf("\nstrcmp testing:\n\n");//strcmp testing
   printf("%s compared to %s is: %d\n", one, two, strcmp(one, two));
   printf("%s compared to %s is: %d\n",three, four, strcmp(three, four));
   printf("%s compared to %s is: %d\n",one, six, strcmp(one, six));
   printf("%s compared to %s is: %d\n",five, two, strcmp(five, two));
   printf("%s compared to %s is: %d\n",five, six, strcmp(five, six));
   printf("%s compared to %s is: %d\n",one, one, strcmp(one, one));
-  //strlen testing
+  printf("\nstrlen testing:\n\n");//strlen testing
   printf("%s is %d characters long\n",three, strlen(three));
   printf("%s is %d characters long\n",six, strlen(six));
   printf("%s is %d characters long\n",one, strlen(one));
-  //strcat testing
+  printf("\nstrcat testing:\n\n");//strcat testing
   printf("%s concatinated to %s is: %s\n",one, one, strcat(one, three));
   printf("%s concatinated to %s is: %s\n",one, one, strcat(two, five));
   printf("%s concatinated to %s is: %s\n",one, one, strcat(three, six));
